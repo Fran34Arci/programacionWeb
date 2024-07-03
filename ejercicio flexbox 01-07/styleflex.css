@@ -1,0 +1,136 @@
+
+.padre{
+width: 100%;
+height: 160px;
+border : 1px solid black;
+display:  flex;
+
+align-items: center;
+background-color: white;
+
+}
+
+.caja1{
+    width:250px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: green;
+    margin-left:40px;
+    margin-right:40px;
+    }
+    .caja2{
+        width: 880px;
+        height: 150px;
+        border: 1px solid black;
+        background-color: grey;
+            
+            margin-left:40px;
+   
+
+        }
+
+
+.padre2{
+    width: 100%;
+    height: 35px;
+    border : 1px solid black;
+    display:  flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(185, 231, 158);
+    flex-wrap: wrap;
+    }
+
+    .padre3{
+        width: 100%;
+        height: 600px;
+        border : 1px solid black;
+        display:  flex;
+        align-items: center;
+        background-color: red;
+    }
+
+    .padre4{
+width: 20%;
+height: 600px;
+border : 1px solid black;
+display:  flex;
+align-items: center;
+background-color: white;
+   
+    
+        }
+        .caja3{
+            width: 250px;
+            height: 550px;
+            border: 1px solid black;
+            background-color: rgb(124, 18, 156);
+
+            margin-top: 40px;
+            margin-left:40px;
+            margin-right:40px;
+
+            }
+
+            .padre5{
+        width: 80%;
+        height: 600px;
+        border : 1px solid black;
+        
+        display: flex;
+flex-wrap: wrap;
+        background-color: white;
+            
+                }
+
+
+            .caja4{
+                width: 400px;
+                height: 200px;
+                border: 1px solid black;
+                background-color: rgb(40, 121, 197);
+
+                margin-top: 40px;
+                margin-left:40px;
+                margin-right:40px;
+                
+                }
+
+                .caja5{
+                    width: 400px;
+                 height: 200px;
+                    border: 1px solid black;
+                    background-color: rgb(218, 76, 142);
+
+                    margin-top: 40px;
+                    margin-left:40px;
+                    margin-right:40px;
+
+
+                    }
+                    .caja6{
+                        width: 880px;
+                        height:200px;
+                        border: 1px solid black;
+                        background-color: #dd9611;
+                        
+                        margin-top: 40px;
+                        margin-left:40px;
+                        margin-right:40px;
+
+                        }
+
+                        .padre6{
+                            width: 100%;
+                            height: 200px;
+                            border : 1px solid black;
+                            display:  flex;
+                            margin-top: 40px;
+                           
+                            background-color: rgb(79, 129, 194);
+                           
+                            }   
+
+                      
+                             
