@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+}
+
+/*flexbox*/
+.contPrinp2{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.contPrinp2 > * {
+    padding: 10px;
+    margin:10px ;
+    flex: 1 100%;
+   border-radius: 10px;
+}
+
+.headerPp2{
+    background: tomato;
+    height: 120px;
+}
+
+/*navegador*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: plum;
+    height: 100px;
+}
+
+.navlist li {
+display: inline-block;
+padding: 0px 200px;
+}
+
+a{
+color: black;
+text-decoration:solid;
+font-size: 25px;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+.compraT{
+    background: rgb(187, 135, 235);
+    height: 500px;
+}
+
+.footerP2{
+    background: skyblue;
+    height: 80px;
+}
+
+
+.productosC{
+background: greenyellow;
+height: 80px;
+height: 400px;
+padding: 40px;
+font-size: 20px;
+text-align: center;
+display: flex;
+flex-wrap: nowrap;
+overflow: scroll;
+}
+
+
+
+/*carrusel*/
+
+.producto{
+flex: 1 0 auto;
+margin: 0 50px;
+background-color: blueviolet;
+width: 150px;
+height: 440px;
+
+}
+.producto img{
+    width: 150px;
+    height: 150px;
+}
+
+
+

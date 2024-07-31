@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+}
+
+/*flexbox*/
+.contPrinp3{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.contPrinp3 > * {
+    padding: 10px;
+    margin:10px ;
+    flex: 1 100%;
+   border-radius: 10px;
+}
+
+.headerPp3{
+    background: tomato;
+    height: 120px;
+}
+
+/*navegador*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: plum;
+    height: 100px;
+}
+
+.navlist li {
+display: inline-block;
+padding: 0px 200px;
+}
+
+a{
+color: black;
+text-decoration:solid;
+font-size: 25px;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+.footerP3{
+    background: skyblue;
+    height: 80px;
+}
+
+
+.menConsultp3{
+    background: greenyellow;
+    height: 80px;
+height: 300px;
+padding: 40px;
+font-size: 20px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
