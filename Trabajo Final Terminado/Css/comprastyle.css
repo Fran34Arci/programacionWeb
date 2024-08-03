@@ -1,0 +1,148 @@
+body {
+    font-family: sans-serif;
+}
+
+/*flexbox*/
+.contPrinp2{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.contPrinp2 > * {
+    padding: 10px;
+    margin:10px ;
+    flex: 1 100%;
+   border-radius: 10px;
+}
+
+.headerPp2{
+    background: tomato;
+    height: 120px;
+}
+
+/*navegador*/
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: plum;
+    height: 100px;
+}
+
+.navlist li {
+display: inline-block;
+padding: 0px 200px;
+}
+
+a{
+color: black;
+text-decoration:solid;
+font-size: 25px;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+.compraT{
+    background: rgb(187, 135, 235);
+    height: 500px;
+}
+
+.footerP2{
+    background: skyblue;
+    height: 80px;
+}
+
+
+.productosc{
+background: yellow;
+height: 80px;
+height: 500px;
+padding: 40px;
+font-size: 20px;
+text-align: center;
+display: flex;
+flex-wrap: nowrap;
+overflow: scroll;
+}
+
+
+
+/*carrusel*/
+
+.producto{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-color: blueviolet;
+    width: 150px;
+    height: 440px;
+
+}
+.producto img{
+    width: 150px;
+    height: 150px;
+}
+
+label{
+    color: black;
+    border: black;
+    
+    font-size: 18px;
+}
+
+p {
+    color: black;
+    border: black;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(145, 32, 145);
+}
+input{
+
+    color: black;
+    border: black;
+    font-size: 17px;
+}
+h3{
+    color: black;
+    border: black;
+    font-size: 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(145, 32, 145);
+}
+
+a{
+    color: black;
+    border: black;
+    font-size: 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(204, 113, 204);
+}
+
+button{
+   
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+   
+}
+
+h1{ 
+    color: rgb(0, 0, 0);
+    border: black;
+    font-size: 50px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
